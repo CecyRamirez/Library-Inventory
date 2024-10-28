@@ -4,5 +4,6 @@ import{ methods as authorController} from "./../controllers/author.controller"
 const router=Router();
 
 router.get("/", authorController.getAuthors);
+router.post("/", authorController.addAuthors);
 
 export default router;
