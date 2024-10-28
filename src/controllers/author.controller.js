@@ -1,5 +1,6 @@
 import{getConnection} from "./../database/database"
 
+//get the authors
 const getAuthors = async (req,res)=>{
     try {
         const connection = await getConnection();
